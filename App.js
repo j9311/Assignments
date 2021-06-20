@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
   }, 
   legato: {
     color: 'white', 
-    fontSize: '3.75em',
+    fontSize: '4rem',
     fontWeight: 'bold',
     justifyContent: 'center',
     fontFamily: 'Georgia',
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
   text: {
     display: 'flex',
     color: 'white',
-    fontSize: '2.5em',
+    fontSize: '2.5rem',
     alignSelf: 'baseline',
     fontWeight: 'bold',
     marginLeft: '1em',
@@ -73,11 +73,12 @@ const styles = StyleSheet.create({
     backgroundColor: "black",
     padding: 5,
     borderRadius: 8,
-    width: '18em',
+    width: '18rem',
     textAlign: 'center',
+    marginTop: '2rem'
   },
   buttonText: {
-    fontSize: '1em',
+    fontSize: '1rem',
     color: '#fff',
   }, 
   
