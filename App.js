@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     fontFamily: 'Georgia',
     fontStyle: 'italic',
-    marginBottom: '2.2em',
+    marginBottom: 125,
     zIndex: 0
   },
   text: {
