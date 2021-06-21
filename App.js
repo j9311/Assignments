@@ -18,7 +18,7 @@ export default function App() {
       <Text style={styles.text}>Create</Text>
         {'\n'}
       <Text style={styles.text}>Connect</Text>
-      {'\n'}
+        {'\n'}
       <Text style={styles.text}>Collaborate</Text>
 
 
@@ -46,7 +46,6 @@ const styles = StyleSheet.create({
     fontSize: 54,
     fontWeight: 'bold',
     justifyContent: 'center',
-    fontFamily: 'Georgia',
     fontStyle: 'italic',
     marginBottom: 125,
     zIndex: 0
@@ -60,7 +59,6 @@ const styles = StyleSheet.create({
     marginLeft: 55,
     marginTop: 9,
     marginBottom: 10,
-    fontFamily: 'Arial',
     zIndex: 0,
   },
   overlay: {
