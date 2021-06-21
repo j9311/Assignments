@@ -42,21 +42,22 @@ const styles = StyleSheet.create({
   }, 
   legato: {
     color: 'white', 
-    fontSize: '4rem',
+    fontSize: 54,
     fontWeight: 'bold',
     justifyContent: 'center',
     fontFamily: 'Georgia',
     fontStyle: 'italic',
-    marginBottom: '2em',
+    marginBottom: '2.2em',
     zIndex: 0
   },
   text: {
     display: 'flex',
     color: 'white',
-    fontSize: '2.5rem',
+    fontSize: 35,
     alignSelf: 'baseline',
     fontWeight: 'bold',
-    marginLeft: '1em',
+    marginLeft: '3.5rem',
+    marginTop: '.5rem',
     fontFamily: 'Arial',
     zIndex: 0,
   },
@@ -67,19 +68,23 @@ const styles = StyleSheet.create({
     bottom: 0,
     left: 0,
     backgroundColor: 'black',
-    opacity: 0.6
+    opacity: 0.5
   },
   button: {
-    backgroundColor: "black",
+    backgroundColor: "#0d0d0d",
     padding: 5,
     borderRadius: 8,
     width: '18rem',
     textAlign: 'center',
-    marginTop: '2rem'
+    position: 'absolute',
+    bottom: '5rem',
+    height: '2.2rem',
+
   },
   buttonText: {
-    fontSize: '1rem',
+    fontSize: 17,
     color: '#fff',
+    textAlignVertical: 'center'
   }, 
   
 });
