@@ -15,9 +15,9 @@ export default function App() {
       <Text style={styles.legato}>Legato</Text>
       
       <Text style={styles.text}>Create</Text>
-        <br/>
+        {'\n'}
       <Text style={styles.text}>Connect</Text>
-        <br/>
+      {'\n'}
       <Text style={styles.text}>Collaborate</Text>
 
 
@@ -53,11 +53,12 @@ const styles = StyleSheet.create({
   text: {
     display: 'flex',
     color: 'white',
-    fontSize: 35,
+    fontSize: 40,
     alignSelf: 'baseline',
     fontWeight: 'bold',
-    marginLeft: 60,
-    marginTop: 7,
+    marginLeft: 55,
+    marginTop: 8,
+    marginBottom: 8,
     fontFamily: 'Arial',
     zIndex: 0,
   },
